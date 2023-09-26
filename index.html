@@ -1,11 +1,32 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>JavaScript Guessing Game Lab</title>
-      <script src="script.js"></script>
-   </head>
-   <body>
-      <p>To test your function, call playGuessingGame() 
-      from the JavaScript console in the browser.</p>
-   </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #response {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to the Guessing Game!</h1>
+<p>Guess a number between 1 and 100:</p>
+
+<input type="number" id="userGuess" min="1" max="100">
+<button onclick="checkGuess()">Submit</button>
+
+<div id="response"></div>
+
+<script src="script.js"></script>
+
+</body>
 </html>
