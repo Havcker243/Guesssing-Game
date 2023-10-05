@@ -35,12 +35,6 @@ The game's UI is structured in a single HTML file with a title, input field for 
 - Add a restart button to let players play again without refreshing the page.
 - Implement animations or visual effects for correct guesses or when a player runs out of attempts.
 - Offer difficulty levels (e.g., more/less number of attempts, wider/narrower range of numbers).
-  <<<<<<< HEAD
-  =======
-
->>>>>>> a36815cb0b96a8299ef42b003385872895cd004f
->>>>>>>
->>>>>>
 >>>>>
 >>>>
 >>>
